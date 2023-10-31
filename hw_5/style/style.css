@@ -1,0 +1,15 @@
+body {
+    background-color: #007bff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.profession {
+    background-color: #bf00ff;
+}
+
+.profession .profession__title {
+    color: aqua;
+}
