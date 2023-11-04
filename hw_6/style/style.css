@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #efeff2;
+    margin: 0;
+    color: #19191c;
+    font: 400 18px/28px Inter,
+    sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    padding: 36px;
+    justify-content: space-between;
+}
+
+.header__box {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.link {
+    color: #19191c;
+    text-decoration: none;
+}
+
+.btn-box {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191c;
+    text-decoration: none;
+}
+
+.header__link {
+    color: #19191c;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header__btn {
+    background: #19191c;
+    color: #efeff2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.profession {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profession__holder {
+    width: 648px;
+}
+
+.profession__title {
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+}
+
+/*-------------------- Footer------------------------*/
+
+.footer {
+    background: #19191c;
+}
+
+.footer__box {
+    padding-top: 59px;
+    display: flex;
+    gap: 146px;
+    justify-content: space-between;
+}
+
+.company__info__holder {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.footer__logo {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #fbfbfc;
+    text-decoration: none;
+}
+
+.company__info__holder__link {
+    color: #fbfbfc;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    margin-top: 28px;
+    text-decoration: none;
+}
+
+/*-------------------* Sitemap ----------------------*/
+.sitemap__holder {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitemap__title {
+    color: #fbfbfc;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.sitemap__list li {
+    margin-bottom: 12px;
+}
+
+.sitemap__list__link {
+    color: #efeff2;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+/*-------------------* Copyright ----------------------*/
+.copyright {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 100px;
+}
+
+.copyright__link {
+    color: #6d6d77;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.copyright__description {
+    color: #6d6d77;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 62px;
+}
