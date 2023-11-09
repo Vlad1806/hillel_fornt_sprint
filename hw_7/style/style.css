@@ -1,0 +1,496 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #efeff2;
+    margin: 0;
+    color: #19191c;
+    font: 400 18px/28px Inter,
+    sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    padding: 36px;
+    justify-content: space-between;
+}
+
+.header__box {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.link {
+    color: #19191c;
+    text-decoration: none;
+}
+
+.btn-box {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #19191c;
+    text-decoration: none;
+}
+
+.header__link {
+    color: #19191c;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header__btn {
+    background: #19191c;
+    color: #efeff2;
+    padding: 12px 37px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.profession {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 150px;
+    padding-bottom: 115px;
+    background: url('../img/arc.png') 99% 100% no-repeat;
+    background-size: 468px 535px;
+}
+
+.profession__month {
+    width: 100px;
+    border-bottom: 4px solid #504dee;
+}
+
+.profession__announcement {
+    margin-top: 40px;
+}
+
+.profession__holder {
+    width: 648px;
+    background-clip: content-box;
+    background: url(../img/gradient/gradient_1.png) no-repeat 180% 100%;
+}
+
+.profession__title {
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin: 0 0 18px;
+}
+
+.profession__description {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 62px;
+}
+
+.button {
+    background: #504dee;
+    color: #fbfbfc;
+    border: none;
+    padding: 16px 37px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 0 0 110px;
+}
+
+.profession__sale {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    margin: 0;
+}
+
+.profession__time {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.profession__list__holder {
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+
+.profession__list__gradient {
+    position: absolute;
+    right: -230px;
+    z-index: -1;
+}
+
+.profession__list__employee {
+    position: absolute;
+    right: -230px;
+    top: -18px;
+}
+
+.profession__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+
+.profession__list__item {
+    position: absolute;
+    border: 2px solid #19191c;
+    padding: 10px 35px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.profession__invision {
+    top: 1px;
+    right: 1px;
+}
+
+.profession__protoPie {
+    top: -60px;
+    right: 240px;
+}
+
+.profession__miro {
+    top: 25px;
+    left: 190px;
+}
+
+.profession__photoshop {
+    top: 195px;
+    left: 140px;
+}
+
+.profession__figma {
+    top: 350px;
+    left: -15px;
+}
+
+.profession__illustrator {
+    top: 490px;
+    left: 30px;
+}
+
+/*-------------------- Designer ------------------------*/
+
+.designer {
+    background-color: #fbfbfc;
+}
+
+.designer__text__holder {
+    padding: 168px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.designer__text {
+    flex: 1;
+}
+
+.designer__title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    padding-bottom: 28px;
+    width: 458px;
+}
+
+.designer__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6d6d77;
+    padding-right: 141px;
+}
+
+/*-------------------- designer__counters  ------------------------*/
+
+.designer__counters {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.designer__counter__number {
+    width: 254px;
+    padding-bottom: 21px;
+    border-bottom: 4px solid #19191c;
+}
+
+.designer__counter__number__value {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+}
+
+.designer__counter__number__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.designer__counter__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6d6d77;
+}
+
+/*-------------------- Learn ------------------------*/
+.learn__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn__card__item {
+    padding: 68px 48px;
+}
+
+.learn__card__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    border-bottom: 4px solid #19191c;
+    padding-bottom: 28px;
+}
+
+.learn__card__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 12px;
+}
+
+.learn__card__portfolio {
+    background: #deefe4;
+}
+
+.learn__card__internship {
+    background: #f3f3d7;
+}
+
+.learn__card__certificate {
+    background: #efdeee;
+}
+
+/*-------------------- Price ------------------------*/
+.price {
+    padding: 158px 0;
+    background: #fbfbfc;
+}
+
+.price__text__title {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+}
+
+.price__cards {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.price__cards .price__card-item:nth-child(even) {
+    background-color: #504dee;
+    color: #fbfbfc;
+}
+
+.price__cards .price__card-item:nth-child(odd) {
+    background-color: #deefe4;
+    color: #19191c;
+}
+
+.price__cards .price__card-item:nth-child(odd) .price__value__full {
+    color: #6d6d77;
+}
+
+.price__cards .price__card-item:nth-child(even) .price__value__full {
+    color: #efeff2;
+}
+
+.price__cards .price__card-item:nth-child(odd) .price__value__button {
+    background: #19191c;
+    color: #fbfbfc;
+}
+
+.price__cards .price__card-item:nth-child(even) .price__value__button {
+    background: #fbfbfc;
+    color: #504dee;
+}
+
+.price__card-item {
+    padding: 45px 50px 50px 68px;
+    display: flex;
+    flex-direction: column;
+    height: 732px;
+}
+
+.price__card__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+}
+
+.price__card__list {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.price__value {
+    margin-top: auto;
+}
+
+.price__value__full {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.price__value__month {
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+}
+
+.price__value__button {
+    margin-top: 18px;
+    border: none;
+    padding: 16px 36px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+/*-------------------- Footer ------------------------*/
+.footer {
+    background: #19191c;
+}
+
+.footer__box {
+    padding-top: 59px;
+    display: flex;
+    gap: 146px;
+    justify-content: space-between;
+}
+
+.company__info__holder {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.footer__logo {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #fbfbfc;
+    text-decoration: none;
+}
+
+.company__info__holder__link {
+    color: #fbfbfc;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    margin-top: 28px;
+    text-decoration: none;
+}
+
+/*-------------------* Sitemap ----------------------*/
+.sitemap__holder {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitemap__title {
+    color: #fbfbfc;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.sitemap__list li {
+    margin-bottom: 12px;
+}
+
+.sitemap__list__link {
+    color: #efeff2;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+/*-------------------* Copyright ----------------------*/
+.copyright {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 100px;
+}
+
+.copyright__link {
+    color: #6d6d77;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.copyright__description {
+    color: #6d6d77;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 62px;
+}
